@@ -1,6 +1,6 @@
 # Langflow Deployment
 
-This repository contains a Docker Compose configuration for deploying [Langflow](https://github.com/langflow-ai/langflow), an open-source UI for LangChain.
+This repository contains a Docker Compose configuration for deploying [Langflow](https://github.com/langflow-ai/langflow), an open-source UI for [LangChain](https://github.com/langchain-ai/langchain).
 
 ## Overview
 
@@ -84,4 +84,4 @@ docker compose down -v
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
