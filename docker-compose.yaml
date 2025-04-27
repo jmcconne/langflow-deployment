@@ -20,7 +20,7 @@ services:
       - QDRANT_HOST=qdrant
       - QDRANT_PORT=6333
     healthcheck:
-      test: ["CMD-SHELL", "python3 -c \"import socket; s=socket.socket(); s.connect(('localhost', 7860)) or exit(0); s.close()\" || exit 1"]
+      test: ["CMD-SHELL", "python3 -c 'import socket; s=socket.socket(); s.connect((\"localhost\", 7860)); s.close()'"]
       interval: 30s
       timeout: 10s
       retries: 3
