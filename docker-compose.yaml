@@ -2,7 +2,7 @@ name: langflow
 
 services:
   langflow:
-    image: langflowai/langflow:1.3.4
+    image: langflowai/langflow:1.4.2
     ports:
       - "7860:7860"
     depends_on:
